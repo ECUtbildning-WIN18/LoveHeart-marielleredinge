@@ -1,4 +1,4 @@
-﻿using System;
+﻿using LoveHeart.Domain;
 
 namespace LoveHeart
 {
@@ -6,7 +6,7 @@ namespace LoveHeart
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            User john = new User("admin", "secret");
         }
     }
 }
